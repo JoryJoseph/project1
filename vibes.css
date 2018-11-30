@@ -1,0 +1,74 @@
+body{
+background-image: url('../winterblue.jpg') ;
+  background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+    
+ 
+}
+
+ul li{
+    float: left;
+    width: 300px;
+    background-color: #336663;
+    opacity: .8;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 30px 5px 30px 10px;
+    position: relative;
+    z-index: 100;
+    
+  }
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover{
+    background-color:#071C21;
+    
+    
+}
+ul li ul li{
+    color: white;
+    display:none;
+    
+}
+
+ul li:hover ul li{
+    display: block;
+   
+}
+
+.primary{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   line-height: 25px;
+    align-items:stretch;
+
+    background-color: #A8BAB5;
+    opacity: 0.7;
+    width: 600px;
+    position: absolute;
+    top:100px;
+    border-radius: 75px 0px 75px 0px;
+   
+    
+   
+}
+
+.navbar{
+ 
+}
+
